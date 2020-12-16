@@ -5,6 +5,10 @@
     {% include essentials/header.html %}
     <main>
       {{content}}
+      <div class="chat-widget center">
+        <h3>Entre em contato</h3>
+        <a href="https://wa.me/{{site.data.settings.global.tel | remove: ' ' | remove: '-' | remove: '/' | remove: '(' | remove: ')'}}" target="_blank" rel="noreferrer noopener">{% include social-icons.html icon="WhatsApp"%}</a>
+      </div>
     </main>
     {% include essentials/footer.html %}
     {% include essentials/scripts.html %}

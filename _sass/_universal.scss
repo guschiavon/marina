@@ -89,3 +89,21 @@ button {
   background-color: unset;
   border: none;
 }
+
+.chat-widget {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  h3 {
+    font-size: 1rem;
+    text-align: right;
+    color: rgb(64, 255, 0)
+  }
+  a {
+    text-align: right;
+    width: 75px;
+  }
+  svg {
+    fill: rgb(64, 255, 0);
+  }
+}

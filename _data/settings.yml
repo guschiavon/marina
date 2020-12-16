@@ -1,9 +1,9 @@
 # Configuration file for access via CloudCannon interface
 global:
-  site_url: 'https://www.velamagia.com.br'
-  title: Cursos de Vela Oceânica - Velamagia
-  tel: '+55 (47) 9 9204-1363'
-  email: 'ola@velamagia.com.br'
+  site_url: 'https://www.marinavip.com.br'
+  title: 'Marina VIP - Marina em Balneário Camboriú'
+  tel: '+55 (47) 9 9619-0008'
+  email: 'marinavip@marinavip.com.br'
   social:
     - icon: "Facebook"
       url: 'https://facebook.com'
@@ -17,7 +17,7 @@ global:
 ##### Fonts #####
 fonts:
   google_fonts_embed_code_block: '<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&family=Questrial&display=swap" rel="stylesheet">' 
-  body_font_family: "'Bitter', serif;"
+  body_font_family: "'Questrial', serif;"
   heading_font_family: "'Questrial', sans-serif;"
 
 ##### Site main colors #####
@@ -35,24 +35,36 @@ navigation:
       submenus:
         - name:
           url:
-    - name: Cursos
+    - name: Estrutura
       url: 
       dropdown: true
       submenus:
-        - name: Iniciante
-          url: /cursos/iniciante
-        - name: Aperfeiçoamento
-          url: /cursos/aperfeicoamento
-    - name: Passeios
-      url:
-      dropdown: true
+        - name: Restaurante
+          url: 
+        - name: Member's Club
+          url: 
+    - name: Serviços
+      url: /servicos
+      dropdown: false
       submenus:
-        - name: Florianópolis
-          url: /passeios/florianopolis
+        - name: Manutenção
+          url: 
+        - name: Charter Management
+          url:  
+    - name: Aluguel
+      url:
+      dropdown: false
+      submenus:
+        - name: Manutenção
+          url: 
+        - name: Charter Management
+          url:
+    - name: Passeios
+      url: /
+      dropdown: True
+      submenus:
         - name: Balneário Camboriú
           url: /passeios/balneario-camboriu
-        - name: Porto Belo
-          url: /passeios/porto-belo
     - name: Contato
       url: /contato
       dropdown: false

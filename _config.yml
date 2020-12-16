@@ -1,5 +1,5 @@
 # Define the site's URL for the correct rendering of the sitemap.xml file
-url: 'https://smooth-hill.cloudvent.net'
+url: 'https://www.example.com'
 
 # Enable CloudCannon CMS interface
 cloudcannon:
@@ -40,6 +40,9 @@ collections:
   passeios:
     output: true
     permalink: /passeios/:title
+  paginas:
+    output: true
+    permalink: /:title  
 
 # Collection defaults
 defaults:
